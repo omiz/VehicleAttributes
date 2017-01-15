@@ -43,6 +43,7 @@
 		E00EE8701E2B72F300B947FD /* UIActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EE86F1E2B72F300B947FD /* UIActivityIndicatorView.swift */; };
 		E00EE8721E2B738E00B947FD /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EE8711E2B738E00B947FD /* UITextField.swift */; };
 		E00EE8741E2B747700B947FD /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EE8731E2B747700B947FD /* UIImage.swift */; };
+		E05B615E1E2BD1BD00DF993F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E05B615D1E2BD1BD00DF993F /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		E00EE86F1E2B72F300B947FD /* UIActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorView.swift; sourceTree = "<group>"; };
 		E00EE8711E2B738E00B947FD /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		E00EE8731E2B747700B947FD /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		E05B615D1E2BD1BD00DF993F /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,10 +154,11 @@
 		E00EE81D1E2ACE2A00B947FD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E05B615B1E2BD17E00DF993F /* Texts */,
+				E05B615A1E2BD16300DF993F /* api */,
 				E00EE8681E2B6B5100B947FD /* Colors */,
 				E00EE8121E2ACE0D00B947FD /* Assets.xcassets */,
 				E00EE8171E2ACE0D00B947FD /* Info.plist */,
-				E00EE8451E2AF80700B947FD /* url.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -298,6 +301,22 @@
 			name = Colors;
 			sourceTree = "<group>";
 		};
+		E05B615A1E2BD16300DF993F /* api */ = {
+			isa = PBXGroup;
+			children = (
+				E00EE8451E2AF80700B947FD /* url.plist */,
+			);
+			name = api;
+			sourceTree = "<group>";
+		};
+		E05B615B1E2BD17E00DF993F /* Texts */ = {
+			isa = PBXGroup;
+			children = (
+				E05B615D1E2BD1BD00DF993F /* Localizable.strings */,
+			);
+			name = Texts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -362,6 +381,7 @@
 			files = (
 				E00EE8461E2AF80700B947FD /* url.plist in Resources */,
 				E00EE8651E2B542700B947FD /* DetailTableViewCell.xib in Resources */,
+				E05B615E1E2BD1BD00DF993F /* Localizable.strings in Resources */,
 				E00EE86A1E2B6B6400B947FD /* Colors.plist in Resources */,
 				E00EE8421E2AF2DB00B947FD /* Podfile in Resources */,
 				E00EE85F1E2B53FD00B947FD /* TypeHeaderTableViewCell.xib in Resources */,

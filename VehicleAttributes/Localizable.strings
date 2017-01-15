@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  VehicleAttributes
+
+  Created by Omar Allaham on 1/15/17.
+  Copyright © 2017 Bemaxnet. All rights reserved.
+*/
+
+"Vehicle Attributes" = "Vehicle Attributes";
+
+"No Internet connection" = "No Internet connection";
+"The app can not be used in the full functionality" = "The app can not be used in the full functionality";
+
+"Fuel:" = "Fuel:";
+"Emissions:" = "Emissions:";
+
+"Not available" = "Not available";
+
+"Ok" = "Ok";
+
+"Empty Response!" = "Empty Response!";
+
+"General" = "General";
+
+"Fuel" = "Fuel";
+
+"Emission" = "Emission";
